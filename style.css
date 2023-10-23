@@ -5,7 +5,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #7696a4;
+  background-color: #a6a9b5;
   justify-content: center;
   align-items: center;
 }
@@ -14,7 +14,7 @@ h1 {
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
-  color: #023047;
+  color: #9e9e9e;
 }
 
 
@@ -66,6 +66,7 @@ h1 {
   background-color: #505050;
 
 }
+
 .header-nav li {
   float: left;
   
@@ -82,6 +83,65 @@ h1 {
 .header-nav li a:hover {
   background-color: #a7a7a7;
 }
+
+
+/* Hero Styling */
+.hero {
+  display: grid;
+  grid-template-columns: 4fr;
+  grid-template-rows: 2fr;
+  
+  
+}
+
+.hero-img {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.hero-txt {
+  grid-column: 1;
+  grid-row: 1;
+  justify-self: center;
+  align-self: center;
+}
+
+.hero-txt h1 {
+  font-size: 3rem;
+  color: rgb(205, 232, 232);
+}
+
+
+/* Content Menu Styling */
+.menu {
+  ;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #505050;
+
+}
+.menu li {
+  float: left;
+  
+}
+
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  background-color: #a7a7a7;
+}
+
 
 
 
